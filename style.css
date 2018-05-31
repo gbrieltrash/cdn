@@ -34,7 +34,7 @@
 background-color:transparent !important; cursor:url('http://goo.gl/V6wcWX'), auto !important;font-family:times !important;}
 #player #timer:before{text-align:left !important; color:#a6a6a6 !important;font-size:7px !important;left:19px !important;font-weight:normal !important;height:12px !important;letter-spacing:1px !important;
 font-family:times !important; border-color: transparent !important;background:transparent !important; cursor:url('http://goo.gl/V6wcWX'), auto !important;}
-#player #list{left:-1px !important; width:15px !important;height:15px !important;top:7px !important;background:url()!important; cursor:url('http://goo.gl/V6wcWX'), auto !important;}
+#player #list{left:-1px !important; width:15px !important;height:15px !important;top:7px !important;background:url(http://goo.gl/ah46tB)!important; cursor:url('http://goo.gl/V6wcWX'), auto !important;}
 
 #player #repeatButton a, #player #repeatOnceButton a, 
 #player #repeatAllButton a, #player #shuffleButtonOff a,  #player #shuffleButtonOn a {background-image:url('');background-repeat:no-repeat;display: block;width: 22px;height: 25px;outline: 0;}
@@ -72,7 +72,7 @@ font-family:times !important; border-color: transparent !important;background:tr
 #playlist .module{ border-color:transparent !important; color:#000000;opacity:1;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
 
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
-#playlist h3{ background:url(); background-repeat: repeat-x !important; color:transparent !important;font-family: 'Indie Flower', cursive;border-color:transparent !important; font-size: 0px;line-height: 18px;height:30px !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+#playlist h3{ background:url(); background-repeat: repeat-x !important; color:transparent !important;font-family: 'Indie Flower', cursive;border-color:transparent !important; font-size: 0px;line-height: 0px;height:0px !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
 
 #playlist .items{font-size: 10px !important; font-family:Arial !important;list-style-type:square !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
 
