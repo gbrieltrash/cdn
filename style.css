@@ -50,14 +50,6 @@ font-family:times !important; border-color: transparent !important;background:tr
 #player #repeatAllButton a {background-position:none !important;}
 #player #repeatAllButton a:active {background-position:none !important;}
 
-#player #shuffleButtonOff {left:-999999px; position:absolute; z-index:9;}
-#player #shuffleButtonOff a {background-position:none !important;}
-#player #shuffleButtonOff a:active {background-position:-66px -25px !important;}
-
-#player #shuffleButtonOn {left:-999999px; position:absolute; z-index:9;}
-#player #shuffleButtonOn a {background-position:none !important;}
-#player #shuffleButtonOn a:active {background-position:none !important;}
-
 #player #seeker{ right:316px; display:none;}
 #player #seekerBase{ border-color:#000; }
 #player #seekerBuffered{ background-color:#000; }
