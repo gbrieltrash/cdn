@@ -34,6 +34,7 @@
 background-color:transparent !important; cursor:url('http://goo.gl/V6wcWX'), auto !important;font-family:times !important;}
 #player #timer:before{text-align:left !important; color:#a6a6a6 !important;font-size:7px !important;left:19px !important;font-weight:normal !important;height:12px !important;letter-spacing:1px !important;
 font-family:times !important; border-color: transparent !important;background:transparent !important; cursor:url('http://goo.gl/V6wcWX'), auto !important;}
+#player #list{left:-1px !important; width:15px !important;height:15px !important;top:7px !important;background:url(http://goo.gl/ah46tB)!important; cursor:url('http://goo.gl/V6wcWX'), auto !important;}
 
 #player #repeatButton a, #player #repeatOnceButton a, 
 #player #repeatAllButton a, #player #shuffleButtonOff a,  #player #shuffleButtonOn a {background-image:url('');background-repeat:no-repeat;display: block;width: 22px;height: 25px;outline: 0;}
@@ -50,6 +51,14 @@ font-family:times !important; border-color: transparent !important;background:tr
 #player #repeatAllButton a {background-position:none !important;}
 #player #repeatAllButton a:active {background-position:none !important;}
 
+#player #shuffleButtonOff {left:-999999px; position:absolute; z-index:9;}
+#player #shuffleButtonOff a {background-position:none !important;}
+#player #shuffleButtonOff a:active {background-position:-66px -25px !important;}
+
+#player #shuffleButtonOn {left:-999999px; position:absolute; z-index:9;}
+#player #shuffleButtonOn a {background-position:none !important;}
+#player #shuffleButtonOn a:active {background-position:none !important;}
+
 #player #seeker{ right:316px; display:none;}
 #player #seekerBase{ border-color:#000; }
 #player #seekerBuffered{ background-color:#000; }
@@ -57,6 +66,24 @@ font-family:times !important; border-color: transparent !important;background:tr
 
 #player #volume{ width:75px; left:-999999px; }
 #player #volumeSlider{ width:15px; background:url(); }
+
+#playlist{ border-color:transparent !important; color:#000000;opacity:1;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+
+#playlist .module{ border-color:transparent !important; color:#000000;opacity:1;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+#playlist h3{ background:url(http://goo.gl/oyM3Yy); background-repeat: repeat-x !important; color:transparent !important;font-family: 'Indie Flower', cursive;border-color:transparent !important; font-size: 0px;line-height: 18px;height:30px !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+
+#playlist .items{font-size: 10px !important; font-family:Arial !important;list-style-type:square !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+
+#playlist .item{font-size: 10px !important; font-family:Arial !important;margin:0 !important;padding:6px 5px 6px 5px !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+
+#playlist .even{background-color:transparent !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+
+#playlist .odd{ background-color:transparent !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+
+#playlist .focus{ background-color:transparent !important;font-weight: bold;padding-left:23px !important;background:url(http://goo.gl/DJQLTB) !important;background-repeat:no-repeat !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+
 
 /* Below CSS are for Retina */
 
