@@ -82,7 +82,7 @@ font-family:times !important; border-color: transparent !important;background:tr
 
 #playlist .odd{ background-color:transparent !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
 
-#playlist .focus{ background-color:transparent !important;font-weight: bold;padding-left:23px !important;background:url(http://goo.gl/DJQLTB) !important;background-repeat:no-repeat !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+#playlist .focus{ background-color:transparent !important;font-weight: bold;padding-left:0px !important;background:url(http://goo.gl/DJQLTB) !important;background-repeat:no-repeat !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
 
 
 /* Below CSS are for Retina */
