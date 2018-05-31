@@ -59,11 +59,6 @@ font-family:times !important; border-color: transparent !important;background:tr
 #player #shuffleButtonOn a {background-position:none !important;}
 #player #shuffleButtonOn a:active {background-position:none !important;}
 
-#player #seeker{ right:316px; display:none;}
-#player #seekerBase{ border-color:#000; }
-#player #seekerBuffered{ background-color:#000; }
-#player #seekerSliderBase{ background-color:#000; }
-
 #player #volume{ width:75px; left:-999999px; }
 #player #volumeSlider{ width:15px; background:url(); }
 
